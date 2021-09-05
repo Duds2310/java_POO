@@ -1,3 +1,5 @@
+package aula_02;
+
 import java.util.Scanner;
 
 public class Ex_06 {
@@ -15,9 +17,9 @@ public class Ex_06 {
         System.out.println("Altura: ");
         double altura = myScan.nextDouble();
 
-        area = base*altura;
+        area = base * altura;
 
-        System.out.println("Área: "+area);
+        System.out.println("Área: " + area);
 
     }
 

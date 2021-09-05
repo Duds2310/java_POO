@@ -1,5 +1,6 @@
+package aula_02;
+
 import java.util.Scanner;
-import java.lang.Math;
 
 public class Ex_07 {
 
@@ -15,11 +16,11 @@ public class Ex_07 {
         System.out.println("Raio: ");
         double raio = myScan.nextDouble();
 
-        diametro = 2*raio;
-        circunferencia = 2*PI*raio;
+        diametro = 2 * raio;
+        circunferencia = 2 * PI * raio;
         area = PI * Math.pow(raio, 2);
 
-        System.out.println("Diâmetro: "+diametro +"\nCircunferência: "+circunferencia+"\nÁrea: "+area);
+        System.out.println("Diâmetro: " + diametro + "\nCircunferência: " + circunferencia + "\nÁrea: " + area);
 
     }
 }

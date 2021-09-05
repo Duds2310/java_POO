@@ -1,3 +1,5 @@
+package aula_02;
+
 public class Ex_03 {
 
     public static void main(String[] args) {
@@ -10,7 +12,7 @@ public class Ex_03 {
         altura = 1.80;
         nome = "Eduardo";
 
-        System.out.println("Nome: "+nome+"\nIdade: "+idade+"\nAltura: "+altura);
+        System.out.println("Nome: " + nome + "\nIdade: " + idade + "\nAltura: " + altura);
 
 
     }

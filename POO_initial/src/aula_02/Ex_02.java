@@ -1,3 +1,5 @@
+package aula_02;
+
 import java.util.Scanner;
 
 public class Ex_02 {
@@ -19,7 +21,7 @@ public class Ex_02 {
         String nome = myScan.nextLine();
 
         // Output
-        System.out.println("Nome: "+nome+"\nIdade: "+idade+"\nAltura: "+altura);
+        System.out.println("Nome: " + nome + "\nIdade: " + idade + "\nAltura: " + altura);
 
     }
 }
